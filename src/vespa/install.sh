@@ -1,10 +1,11 @@
 #!/bin/sh
 set -e
+set -x
 
 echo "Activating feature 'Vespa'..."
 # Fetching the latest Vespa release version
 echo 'Fetching the latest Vespa release version...'
-curl -s https://api.github.com/repos/vespa-engine/vespa/releases/latest | jq -r .tag_name | sed 's/v//' > /tmp/vespa_version
+curl -s https://api.github.com/repos/vespa-engine/vespa/releases/latest | jq -r '.tag_name' | sed 's/v//' > /tmp/vespa_version
 
 # Storing the version in a variable
 VERSION=$(cat /tmp/vespa_version)
