@@ -2,6 +2,9 @@
     "vespa": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
+            "ghcr.io/devcontainers/features/python:1": {},
+            "ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
+            "ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {},
             "vespa": {}
         }
     }
