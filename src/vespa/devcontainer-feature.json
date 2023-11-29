@@ -1,0 +1,11 @@
+{
+  "name": "Vespa",
+  "id": "vespa",
+  "version": "0.0.1",
+  "description": "A feature that installs the latest release of Vespa in the container.",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers-contrib/features/curl-apt-get:1",
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes:2"
+  ]
+}
