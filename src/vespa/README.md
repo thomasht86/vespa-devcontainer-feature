@@ -1,26 +1,20 @@
 
-# My Favorite Color (color)
+# Vespa (vespa)
 
-A feature to remind you of your favorite color
+A feature that installs the latest release of Vespa in the container.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
-        "version": "latest"
-    }
+    "ghcr.io/thomasht86/vespa-devcontainer-feature/vespa:0": {}
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/thomasht86/vespa-devcontainer-feature/blob/main/src/vespa/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
